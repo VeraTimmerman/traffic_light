@@ -703,7 +703,7 @@
 	)
 	(wire
 		(pts
-			(xy 119.38 158.75) (xy 119.38 162.56)
+			(xy 119.38 147.32) (xy 119.38 162.56)
 		)
 		(stroke
 			(width 0)
@@ -723,23 +723,13 @@
 	)
 	(wire
 		(pts
-			(xy 162.56 147.32) (xy 162.56 151.13)
+			(xy 162.56 137.16) (xy 162.56 162.56)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "09148a46-77a5-4fdf-bf73-675daccaf0fe")
-	)
-	(wire
-		(pts
-			(xy 119.38 147.32) (xy 119.38 151.13)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "09c77248-f642-4a13-af1b-61402ce81ce3")
 	)
 	(wire
 		(pts
@@ -763,7 +753,7 @@
 	)
 	(wire
 		(pts
-			(xy 104.14 147.32) (xy 104.14 151.13)
+			(xy 104.14 147.32) (xy 104.14 162.56)
 		)
 		(stroke
 			(width 0)
@@ -833,17 +823,7 @@
 	)
 	(wire
 		(pts
-			(xy 134.62 158.75) (xy 134.62 162.56)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "790bd6ab-0ad8-44f6-9daf-d85966dc36e4")
-	)
-	(wire
-		(pts
-			(xy 148.59 147.32) (xy 148.59 151.13)
+			(xy 148.59 147.32) (xy 148.59 162.56)
 		)
 		(stroke
 			(width 0)
@@ -873,16 +853,6 @@
 	)
 	(wire
 		(pts
-			(xy 148.59 158.75) (xy 148.59 162.56)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a02edd3d-553d-44a4-815b-08c344664199")
-	)
-	(wire
-		(pts
 			(xy 162.56 127) (xy 162.56 129.54)
 		)
 		(stroke
@@ -890,16 +860,6 @@
 			(type default)
 		)
 		(uuid "adbc8bc9-4430-4fe6-ac23-90503ea563e5")
-	)
-	(wire
-		(pts
-			(xy 104.14 158.75) (xy 104.14 162.56)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b1d77902-6074-47e4-96d2-1625965ced47")
 	)
 	(wire
 		(pts
@@ -913,16 +873,6 @@
 	)
 	(wire
 		(pts
-			(xy 162.56 158.75) (xy 162.56 162.56)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c4b1b26d-0cf8-47da-a835-5dc4bc16a2b8")
-	)
-	(wire
-		(pts
 			(xy 148.59 102.87) (xy 148.59 109.22)
 		)
 		(stroke
@@ -933,7 +883,7 @@
 	)
 	(wire
 		(pts
-			(xy 134.62 147.32) (xy 134.62 151.13)
+			(xy 134.62 147.32) (xy 134.62 162.56)
 		)
 		(stroke
 			(width 0)
@@ -1043,16 +993,6 @@
 	)
 	(wire
 		(pts
-			(xy 162.56 137.16) (xy 162.56 139.7)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fdf9474b-4c6a-4975-9f46-22a6b6e1540a")
-	)
-	(wire
-		(pts
 			(xy 104.14 127) (xy 104.14 129.54)
 		)
 		(stroke
@@ -1070,85 +1010,6 @@
 			(type default)
 		)
 		(uuid "ff90b735-0493-4a35-9207-dc001e701131")
-	)
-	(symbol
-		(lib_id "Device:LED")
-		(at 134.62 154.94 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "04777ced-e8c7-4ffb-b5b9-91ac5f76f289")
-		(property "Reference" "D15"
-			(at 138.43 155.2574 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "LED"
-			(at 138.43 157.7974 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "LED_THT:LED_D5.0mm"
-			(at 134.62 154.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 134.62 154.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Light emitting diode"
-			(at 134.62 154.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 134.62 154.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "740e49cc-56ed-4235-a59d-18ffedcbc061")
-		)
-		(pin "1"
-			(uuid "023b8eec-3106-4d30-8a37-0045fc3c6f00")
-		)
-		(instances
-			(project "TrafficLight"
-				(path "/914c6d2c-bed0-408b-b43b-3fef96a78aaa"
-					(reference "D15")
-					(unit 1)
-				)
-			)
-		)
 	)
 	(symbol
 		(lib_id "Device:LED")
@@ -1942,85 +1803,6 @@
 	)
 	(symbol
 		(lib_id "Device:LED")
-		(at 148.59 154.94 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "4c9d2984-fcbd-4deb-bbf5-5faeec2b481b")
-		(property "Reference" "D20"
-			(at 152.4 155.2574 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "LED"
-			(at 152.4 157.7974 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "LED_THT:LED_D5.0mm"
-			(at 148.59 154.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 148.59 154.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Light emitting diode"
-			(at 148.59 154.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 148.59 154.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "99ac5db7-d85f-4278-9fc0-4c3ef1c075e9")
-		)
-		(pin "1"
-			(uuid "b800fd7c-10ca-4371-b3c0-4d2c1149b49e")
-		)
-		(instances
-			(project "TrafficLight"
-				(path "/914c6d2c-bed0-408b-b43b-3fef96a78aaa"
-					(reference "D20")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:LED")
 		(at 134.62 123.19 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -2330,85 +2112,6 @@
 			(project "TrafficLight"
 				(path "/914c6d2c-bed0-408b-b43b-3fef96a78aaa"
 					(reference "D13")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:LED")
-		(at 104.14 154.94 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "5c678959-6785-4127-9093-eadc4e77e52e")
-		(property "Reference" "D5"
-			(at 107.95 155.2574 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "LED"
-			(at 107.95 157.7974 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "LED_THT:LED_D5.0mm"
-			(at 104.14 154.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 104.14 154.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Light emitting diode"
-			(at 104.14 154.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 104.14 154.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "932428f2-fd80-4a32-bf09-d63d82bbdc9f")
-		)
-		(pin "1"
-			(uuid "b952c299-81c5-4ac7-843f-dc655b455dc6")
-		)
-		(instances
-			(project "TrafficLight"
-				(path "/914c6d2c-bed0-408b-b43b-3fef96a78aaa"
-					(reference "D5")
 					(unit 1)
 				)
 			)
@@ -3286,85 +2989,6 @@
 	)
 	(symbol
 		(lib_id "Device:LED")
-		(at 162.56 143.51 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "ab1bb19c-d271-4276-b03c-6183ff1fcb86")
-		(property "Reference" "D24"
-			(at 166.37 143.8274 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "LED"
-			(at 166.37 146.3674 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "LED_THT:LED_D5.0mm"
-			(at 162.56 143.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 162.56 143.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Light emitting diode"
-			(at 162.56 143.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 162.56 143.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "8d37427c-26c2-410d-98a7-b06a86cae1a8")
-		)
-		(pin "1"
-			(uuid "e1712d37-aaa8-43ea-9805-451278a6a974")
-		)
-		(instances
-			(project "TrafficLight"
-				(path "/914c6d2c-bed0-408b-b43b-3fef96a78aaa"
-					(reference "D24")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:LED")
 		(at 134.62 143.51 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -3643,164 +3267,6 @@
 			(project "TrafficLight"
 				(path "/914c6d2c-bed0-408b-b43b-3fef96a78aaa"
 					(reference "R3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:LED")
-		(at 162.56 154.94 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "cd1fea83-0e30-45f9-ba75-f3062d02dd5f")
-		(property "Reference" "D25"
-			(at 166.37 155.2574 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "LED"
-			(at 166.37 157.7974 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "LED_THT:LED_D5.0mm"
-			(at 162.56 154.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 162.56 154.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Light emitting diode"
-			(at 162.56 154.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 162.56 154.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "590eb11f-368a-43aa-a826-b9bee8432111")
-		)
-		(pin "1"
-			(uuid "7caa43e9-b46a-4770-a9d1-814b7c8a7294")
-		)
-		(instances
-			(project "TrafficLight"
-				(path "/914c6d2c-bed0-408b-b43b-3fef96a78aaa"
-					(reference "D25")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:LED")
-		(at 119.38 154.94 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "d7dc03d8-936d-4346-ae4f-401d2fb2b8de")
-		(property "Reference" "D10"
-			(at 123.19 155.2574 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "LED"
-			(at 123.19 157.7974 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "LED_THT:LED_D5.0mm"
-			(at 119.38 154.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 119.38 154.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Light emitting diode"
-			(at 119.38 154.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 119.38 154.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "1110a2ad-1c6a-4a73-bc37-ee8b9441c925")
-		)
-		(pin "1"
-			(uuid "8e03dd69-7250-4c6d-8453-67f5d254ff9d")
-		)
-		(instances
-			(project "TrafficLight"
-				(path "/914c6d2c-bed0-408b-b43b-3fef96a78aaa"
-					(reference "D10")
 					(unit 1)
 				)
 			)
