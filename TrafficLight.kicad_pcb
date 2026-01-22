@@ -108,7 +108,7 @@
 	(footprint "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal"
 		(layer "F.Cu")
 		(uuid "22f528cf-41e1-4d2f-9ca9-f38984c2b03d")
-		(at 110 100)
+		(at 79.69 97.9)
 		(descr "Resistor, Axial_DIN0204 series, Axial, Horizontal, pin pitch=7.62mm, 0.167W, length*diameter=3.6*1.6mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
 		(tags "Resistor Axial_DIN0204 series Axial Horizontal pin pitch 7.62mm 0.167W length 3.6mm diameter 1.6mm")
 		(property "Reference" "R3"
@@ -282,7 +282,7 @@
 	(footprint "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal"
 		(layer "F.Cu")
 		(uuid "23769dea-48b6-4778-a12a-755403330378")
-		(at 110 90)
+		(at 79.69 87.9)
 		(descr "Resistor, Axial_DIN0204 series, Axial, Horizontal, pin pitch=7.62mm, 0.167W, length*diameter=3.6*1.6mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
 		(tags "Resistor Axial_DIN0204 series Axial Horizontal pin pitch 7.62mm 0.167W length 3.6mm diameter 1.6mm")
 		(property "Reference" "R1"
@@ -1668,7 +1668,7 @@
 	(footprint "Connector_PinSocket_2.54mm:PinSocket_1x02_P2.54mm_Vertical"
 		(layer "F.Cu")
 		(uuid "6c5f113c-97e3-4eee-885a-f9ae78fe20cc")
-		(at 105.025 98.75)
+		(at 74.715 96.65)
 		(descr "Through hole straight socket strip, 1x02, 2.54mm pitch, single row (from Kicad 4.0.7), script generated")
 		(tags "Through hole socket strip THT 1x02 2.54mm single row")
 		(property "Reference" "J1"
@@ -2527,7 +2527,7 @@
 	(footprint "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal"
 		(layer "F.Cu")
 		(uuid "9b0d9ad5-b1a2-4178-8acf-b91c2cd44991")
-		(at 110 105)
+		(at 79.69 102.9)
 		(descr "Resistor, Axial_DIN0204 series, Axial, Horizontal, pin pitch=7.62mm, 0.167W, length*diameter=3.6*1.6mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
 		(tags "Resistor Axial_DIN0204 series Axial Horizontal pin pitch 7.62mm 0.167W length 3.6mm diameter 1.6mm")
 		(property "Reference" "R4"
@@ -2903,7 +2903,7 @@
 	(footprint "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal"
 		(layer "F.Cu")
 		(uuid "a5b6ea98-ecb5-406c-93a0-53b8b6869e4b")
-		(at 110 110)
+		(at 79.69 107.9)
 		(descr "Resistor, Axial_DIN0204 series, Axial, Horizontal, pin pitch=7.62mm, 0.167W, length*diameter=3.6*1.6mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
 		(tags "Resistor Axial_DIN0204 series Axial Horizontal pin pitch 7.62mm 0.167W length 3.6mm diameter 1.6mm")
 		(property "Reference" "R5"
@@ -3279,7 +3279,7 @@
 	(footprint "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal"
 		(layer "F.Cu")
 		(uuid "ab699a7e-c384-42e1-a47d-c5f3dd7d34c5")
-		(at 110 95)
+		(at 79.69 92.9)
 		(descr "Resistor, Axial_DIN0204 series, Axial, Horizontal, pin pitch=7.62mm, 0.167W, length*diameter=3.6*1.6mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
 		(tags "Resistor Axial_DIN0204 series Axial Horizontal pin pitch 7.62mm 0.167W length 3.6mm diameter 1.6mm")
 		(property "Reference" "R2"
@@ -6279,14 +6279,24 @@
 		)
 	)
 	(gr_line
-		(start 106.69873 75)
-		(end 193.30127 125)
+		(start 100 60)
+		(end 200 60)
 		(stroke
 			(width 0.1)
 			(type solid)
 		)
 		(layer "Dwgs.User")
-		(uuid "23b0a756-87c7-4193-b3b7-02795e0ab4fa")
+		(uuid "0ce859f3-48e1-4c31-999f-c6dd21ab041d")
+	)
+	(gr_line
+		(start 100 140)
+		(end 200 140)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "Dwgs.User")
+		(uuid "369076ca-55a5-47a5-ab49-543735d3da71")
 	)
 	(gr_circle
 		(center 150 100)
@@ -6311,14 +6321,24 @@
 		(uuid "6bcb3eb2-a8a1-400b-9ffd-d0c8a7482627")
 	)
 	(gr_line
-		(start 175 56.69873)
-		(end 125 143.30127)
+		(start 100 80)
+		(end 200 80)
 		(stroke
 			(width 0.1)
 			(type solid)
 		)
 		(layer "Dwgs.User")
-		(uuid "86996e9e-1b86-4c4b-b4f4-6af6b0747f88")
+		(uuid "7480a284-d9e1-4b9e-bd14-aaf1782a611a")
+	)
+	(gr_line
+		(start 170 50)
+		(end 170 150)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "Dwgs.User")
+		(uuid "90008b96-b88b-4067-aa8c-5720a05a5dc5")
 	)
 	(gr_circle
 		(center 150 100)
@@ -6332,14 +6352,24 @@
 		(uuid "9daa83b5-a5e8-4bd0-bcc4-d24aef01386b")
 	)
 	(gr_line
-		(start 125 56.69873)
-		(end 175 143.30127)
+		(start 130 50)
+		(end 130 150)
 		(stroke
 			(width 0.1)
 			(type solid)
 		)
 		(layer "Dwgs.User")
-		(uuid "af28b7c2-255b-4d25-811c-65e4382eecd4")
+		(uuid "a072adff-d986-40b3-945f-cc9e6669f049")
+	)
+	(gr_line
+		(start 110 50)
+		(end 110 150)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "Dwgs.User")
+		(uuid "a210bf8d-d651-4ca7-964b-75b4b65f4900")
 	)
 	(gr_line
 		(start 100 100)
@@ -6362,14 +6392,24 @@
 		(uuid "c8e12486-ffd8-4fbe-b9cd-2e9237e1fb48")
 	)
 	(gr_line
-		(start 193.30127 75)
-		(end 106.69873 125)
+		(start 190 50)
+		(end 190 150)
 		(stroke
 			(width 0.1)
 			(type solid)
 		)
 		(layer "Dwgs.User")
-		(uuid "d9d29ad4-80d7-4628-ae66-b1a509434db8")
+		(uuid "e69e5230-0a57-4db5-8687-5839a2029ddd")
+	)
+	(gr_line
+		(start 100 120)
+		(end 200 120)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "Dwgs.User")
+		(uuid "fe84802e-382b-426b-bb74-2813f4dc41ee")
 	)
 	(gr_circle
 		(center 150 100)
